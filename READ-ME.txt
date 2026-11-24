@@ -1,0 +1,1 @@
+Open index.html to start your website. Keep index.html, about.html and projects.html together in the same folder. If you publish these on GitHub Pages, upload all three pages to the same location. Do not include private personal information.

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Eco Club Website</title>
+  <style>
+    /* TASK: Change two CSS values to suit your own design. */
+    body { font-family: Arial, sans-serif; margin: 0; background: #f5faf8; color: #18353b; line-height: 1.6; }
+    header { background: #087b78; color: white; padding: 24px; }
+    nav { background: #e1f2ec; padding: 14px 24px; }
+    nav a { color: #075a58; margin-right: 18px; font-weight: bold; }
+    main { max-width: 760px; margin: 30px auto; padding: 28px; background: white; border-radius: 14px; }
+    h1 { margin: 0; }
+    footer { text-align: center; padding: 20px; color: #49666a; }
+  </style>
+</head>
+<body>
+  <header><h1>Join Eco Club Website</h1></header>
+  <nav aria-label="Main navigation">
+    <a href="index.html">Home</a>
+    <a href="projects.html">Projects</a>
+    <a href="about.html">Join</a>
+  </nav>
+  <main>
+    <h2>Join the Eco Club</h2>
+  <p>4 quick questions - under 1 minute!</p>
+
+  <form onsubmit="event.preventDefault(); alert('Thank you! Demo form completed.');">
+
+    <p>
+      <label for="name">Name:</label>
+      <input type="text" id="name" required>
+    </p>
+
+    <p>
+      <label for="grade">Grade:</label>
+      <select id="grade" required>
+        <option value="">Select grade</option>
+        <option>6</option>
+        <option>7</option>
+        <option>8</option>
+        <option>9</option>
+      </select>
+    </p>
+
+    <p>
+      <label for="email">School Email:</label>
+      <input type="email" id="email" required>
+    </p>
+
+    <p>
+      <label for="interest">I'm interested in:</label>
+      <select id="interest" required>
+        <option value="">Choose an activity</option>
+        <option>Beach clean-up</option>
+        <option>Recycling</option>
+        <option>School garden</option>
+      </select>
+    </p>
+
+    <button type="submit">Send</button>
+  </form>
+  </main>
+  <footer>Created for a Grade 9 Design project.</footer>
+</body>
+</html>
